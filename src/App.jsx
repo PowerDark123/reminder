@@ -9,8 +9,8 @@ function App() {
   return (
     
     <div className="container border text-center">
-      <h1>Today birthdays</h1>
-      <List people={people}/>
+      <h4>Today birthdays</h4>
+      <List people={people} setPeople={setPeople}/>
     </div>
   );
 }
